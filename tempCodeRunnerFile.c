@@ -4,7 +4,7 @@ int main(){
     for ( i = 0; i < 6-1; i++)
     {
         for ( j = 0; j < 6-1-i; j++)
-        {
+        {   
             if(a[j]>a[j+1]){
                 c=a[j];
                 a[j]=a[j+1];
@@ -14,7 +14,7 @@ int main(){
     }
     for ( i = 0; i < 6; i++)
     {
-        printf("%d ",a[i]);
+        printf("%d",&a[i]);
     }
     
     return 0;
