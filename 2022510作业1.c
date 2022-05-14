@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
     int a[15],o,i=0,j,c=0;
     scanf("%d",&a[0]);
@@ -13,8 +13,8 @@ int main(){
     {
         for ( j = 0; j < o; j++)
         {
-            if(a[i]==a[j]*2){
-                c++;
+            if( a[i]==a[j] * 2){
+                c ++;
             }
         }
     }
